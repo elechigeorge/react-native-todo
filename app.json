@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todoList",
+    "name": "Nelson Todo Star",
     "slug": "todoList",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.king.nelson",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#e8eaed",
+      },
+      "package": "com.king.nelson"
     },
     "web": {
       "favicon": "./assets/favicon.png"
